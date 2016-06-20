@@ -23,5 +23,25 @@ byte: The byte data type is an 8-bit signed two's complement integer. It has a m
  The boolean data type has only two possible values: true and false. Use this data type for simple flags that track true/false conditions. This data type represents one bit of information, but its "size" isn't something that's precisely defined.
 
 * ** char:**
- The char data type is a single 16-bit Unicode character. It has a minimum value of '\u0000' (or 0) and a maximum value of '\uffff' (or 65,535 inclusive).
+ The char data type is a single 16-bit Unicode character. It has a minimum value of '\u0000' (or 0) and a maximum value of '\uffff' (or 65,535 inclusive). 
+ 
+ Here is a simple program to demonstrate usage of these
+ 
+ ```
+ class DataTypeDemo{
+public static void main(String[] args) {
+        //byte, short, int, long - integer types
+        //float, double - floating point numbers
+        //boolean, char
+    String name = "sathvik";
+    byte a = 10;
+    byte b = (byte)(20+a);
+    float num = 10.22; //error, change to 10.22f
+    boolean flag = true;
+    System.out.println(name + "asdf");
+    long value = 0xffff_ffff_ffff; //valid in java 7+
+
+    }
+}
+ ```
 
