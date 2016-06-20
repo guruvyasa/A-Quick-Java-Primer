@@ -7,6 +7,7 @@ class ArrayDemo {
     public static void main(String[] args) {
         // declares an array of integers
         int[] anArray;
+        float[] anArrayOfFloats;
 
         // allocates memory for 10 integers
         anArray = new int[10];
@@ -16,3 +17,16 @@ class ArrayDemo {
         
         System.out.println(anArray.length); // prints 10
         System.out.println(anArray[8]); //prints 0
+        }
+       }
+       ```
+       
+ Here is a shortcut syntax to create an array:
+ 
+ ```
+int[] anArray = { 
+    100, 200, 300,
+    400, 500, 600, 
+    700, 800, 900, 1000
+};
+```
