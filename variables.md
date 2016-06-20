@@ -25,4 +25,5 @@ The Java programming language defines the following kinds of variables:
  * Variable names are case-sensitive. A variable's name can be any legal identifier — an unlimited-length sequence of Unicode letters and digits, beginning with a letter, the dollar sign "$", or the underscore character "_". The convention, however, is to always begin your variable names with a letter, not "$" or "_". Additionally, the dollar sign character, by convention, is never used at all. You may find some situations where auto-generated names will contain the dollar sign, but your variable names should always avoid using it. A similar convention exists for the underscore character; while it's technically legal to begin your variable's name with "_", this practice is discouraged. White space is not permitted.
  * If variable stores a constant value use full uppercase: Eg. **final double PI = 3.141;**
  * Follow camelcase. For class names Eg. **ClassName**, variable and function names, **doSomething()**
- * 
+ 
+ 
