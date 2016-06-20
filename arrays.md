@@ -30,3 +30,16 @@ int[] anArray = {
     700, 800, 900, 1000
 };
 ```
+**Multidimensional arrays:**
+class MultiDimArrayDemo {
+    public static void main(String[] args) {
+        String[][] names = {
+            {"Mr. ", "Mrs. ", "Ms. "},
+            {"Ram", "Janaki"}
+        };
+        // Mr. Ram
+        System.out.println(names[0][0] + names[1][0]);
+        // Ms. Janaki
+        System.out.println(names[0][2] + names[1][1]);
+    }
+}
