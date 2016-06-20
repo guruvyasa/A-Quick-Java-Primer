@@ -25,7 +25,7 @@ byte: The byte data type is an 8-bit signed two's complement integer. It has a m
 * ** char:**
  The char data type is a single 16-bit Unicode character. It has a minimum value of '\u0000' (or 0) and a maximum value of '\uffff' (or 65,535 inclusive). 
  
- Here is a simple program to demonstrate usage of these
+ Here is a simple program to demonstrate usage of these( read the comments)
  
  ```
  class DataTypeDemo{
