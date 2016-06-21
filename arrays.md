@@ -29,8 +29,11 @@ int[] anArray = {
     400, 500, 600, 
     700, 800, 900, 1000
 };
+```
 
 **Multidimensional arrays:**
+Here is a simple example showing creation and usage of multidimensional arrays.
+
 ```
 class MultiDimArrayDemo {
     public static void main(String[] args) {
@@ -44,3 +47,9 @@ class MultiDimArrayDemo {
         System.out.println(names[0][2] + names[1][1]);
     }
 }
+```
+
+** java.util.Arrays**
+Java SE provides several methods for performing array manipulations (common tasks, such as copying, sorting and searching arrays) in the java.util.Arrays class
+
+
