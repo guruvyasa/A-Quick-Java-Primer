@@ -76,7 +76,7 @@ By the end of this program, the variable thirdString contains "This is a concate
 
 ## Equality and Relational Operators
 
-The equality and relational operators determine if one operand is greater than, less than, equal to, or not equal to another operand. The majority of these operators will probably look familiar to you as well. Keep in mind that you must use "==", not "=", when testing if two primitive values are equal.
+The equality and relational operators determine if one operand is greater than, less than, equal to, or not equal to another operand. Keep in mind that you must use "==", not "=", when testing if two primitive values are equal.
 
 ==      equal to
 
@@ -90,3 +90,23 @@ The equality and relational operators determine if one operand is greater than, 
 
 <=      less than or equal to
 
+Here is a program to illustrate the usage of these operators:
+```
+class ComparisonDemo {
+
+    public static void main(String[] args){
+        int value1 = 1;
+        int value2 = 2;
+        if(value1 == value2)
+            System.out.println("value1 == value2");
+        if(value1 != value2)
+            System.out.println("value1 != value2");
+        if(value1 > value2)
+            System.out.println("value1 > value2");
+        if(value1 < value2)
+            System.out.println("value1 < value2");
+        if(value1 <= value2)
+            System.out.println("value1 <= value2");
+    }
+}
+```
