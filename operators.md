@@ -19,3 +19,5 @@ The operators in the following table are listed according to precedence order. T
 | logical OR |  |
 | ternary | ? :|
 | assignment | = |
+
+The following program illustrates usage of the arithmetic operators +,-,\*,%(mod) and /(divide)
