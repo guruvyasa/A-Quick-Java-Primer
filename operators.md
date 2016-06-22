@@ -73,3 +73,20 @@ class ConcatDemo {
 ```
 
 By the end of this program, the variable thirdString contains "This is a concatenated string.", which gets printed to standard output.
+
+## Equality and Relational Operators
+
+The equality and relational operators determine if one operand is greater than, less than, equal to, or not equal to another operand. The majority of these operators will probably look familiar to you as well. Keep in mind that you must use "==", not "=", when testing if two primitive values are equal.
+
+==      equal to
+
+!=      not equal to
+
+\>       greater than
+
+\>=      greater than or equal to
+
+<       less than
+
+<=      less than or equal to
+
