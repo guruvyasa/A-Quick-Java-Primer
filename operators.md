@@ -143,5 +143,38 @@ class ConditionalDemo2 {
         System.out.println(result);
     }
 }
-
+```
 Because someCondition is true, this program prints "1" to the screen. Use the ?: operator instead of an if-then-else statement if it makes your code more readable; for example, when the expressions are compact and without side-effects (such as assignments).
+
+## The Type Comparison Operator instanceof
+
+The instanceof operator compares an object to a specified type. You can use it to test if an object is an instance of a class, an instance of a subclass, or an instance of a class that implements a particular interface.
+
+The following program, InstanceofDemo, defines a parent class (named Parent), a simple interface (named MyInterface), and a child class (named Child) that inherits from the parent and implements the interface.
+
+```
+class InstanceofDemo {
+    public static void main(String[] args) {
+    
+    String s = "Chandan";
+    System.out.println(s instanceOf String); //true
+    }
+   }
+```
+
+When using the instanceof operator, keep in mind that null is not an instance of anything.
+
+## Bitwise operators
+
+The unary bitwise complement operator "~" inverts a bit pattern; it can be applied to any of the integral types, making every "0" a "1" and every "1" a "0". For example, a byte contains 8 bits; applying this operator to a value whose bit pattern is "00000000" would change its pattern to "11111111".
+
+The signed left shift operator "<<" shifts a bit pattern to the left, and the signed right shift operator ">>" shifts a bit pattern to the right. The bit pattern is given by the left-hand operand, and the number of positions to shift by the right-hand operand. The unsigned right shift operator ">>>" shifts a zero into the leftmost position, while the leftmost position after ">>" depends on sign extension.
+
+The bitwise & operator performs a bitwise AND operation.
+
+The bitwise ^ operator performs a bitwise exclusive OR operation.
+
+The bitwise | operator performs a bitwise inclusive OR operation.
+
+
+    
