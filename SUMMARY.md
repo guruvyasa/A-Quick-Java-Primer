@@ -6,4 +6,5 @@
    * [Primitive Data Types](primitive_data_types.md)
    * [Arrays](arrays.md)
    * [Operators](operators.md)
+* Control flow and Loops
 
