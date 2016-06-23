@@ -18,3 +18,21 @@ class IfElseDemo{
 ```
 One thing to keep in mind here, we cannot write ```if(number % 2){...}```, as Java expects a boolean expression in if's unlike C and C++.
 ** In Java an expression is allowed in a boolean context  if and only if it evaluates to true or false**
+
+Here is another example which checks if a number is both even and divisible by 4,
+```
+class IfElseDemo{
+  public static void main(String[] args){
+    int number = 10;
+    if (number % 2 == 0){
+      if(number % 4 == 0)
+        System.out.println(number + " is even and divisible by 4");
+      else
+         System.out.println(number + " is even but not divisible by 4");
+      }
+    else{
+      System.out.println(number + " is neither even and(obviously) not divisible by 4");
+      }
+ }
+}
+```
