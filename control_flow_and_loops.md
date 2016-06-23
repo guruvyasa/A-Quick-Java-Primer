@@ -14,3 +14,7 @@ class IfElseDemo{
       System.out.println(number + " is odd");
       }
  }
+}
+```
+One thing to keep in mind here, we cannot write ```if(number % 2){...}```, as Java expects a boolean expression in if's unlike C and C++.
+** In Java an expression is allowed in a boolean context  if and only if it evaluates to true or false**
