@@ -21,7 +21,7 @@ One thing to keep in mind here, we cannot write ```if(number % 2){...}```, as Ja
 
 Here is another example which checks if a number is both even and divisible by 4,
 ```
-class IfElseDemo{
+class NestedIfElseDemo{
   public static void main(String[] args){
     int number = 10;
     if (number % 2 == 0){
