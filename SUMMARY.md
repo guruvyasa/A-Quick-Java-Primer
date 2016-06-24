@@ -8,5 +8,5 @@
    * [Operators](operators.md)
 * [Control flow and Loops](control_flow_and_loops.md)
    * [The for loop](the_for_loop.md)
-   * while and do-while loops
+   * [while and do-while loops](while_and_do-while_loops.md)
 
