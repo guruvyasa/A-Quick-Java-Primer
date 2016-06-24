@@ -19,3 +19,29 @@ class WhileDemo {
     }
 }
 ```
+You can implement an infinite loop using the while statement as follows:
+```
+while (true){
+    // your code goes here
+}
+```
+** The do while loop** 
+
+The Java programming language also provides a do-while statement, which can be expressed as follows:
+```
+do {
+     statement(s)
+} while (expression);
+```
+The difference between do-while and while is that do-while evaluates its expression at the bottom of the loop instead of the top. Therefore, the statements within the do block are always executed at least once, as shown in the following DoWhileDemo program:
+```
+class DoWhileDemo {
+    public static void main(String[] args){
+        int count = 1;
+        do {
+            System.out.println("Count is: " + count);
+            count++;
+        } while (count < 11);
+    }
+}
+```
