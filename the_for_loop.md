@@ -50,5 +50,6 @@ class EnhancedForDemo {
          }
     }
 }
-    
+```
+In this example, the variable item holds the current value from the numbers array. This value gets updated in every iteration of the loop.
     
