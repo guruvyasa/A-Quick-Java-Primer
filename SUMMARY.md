@@ -7,4 +7,5 @@
    * [Arrays](arrays.md)
    * [Operators](operators.md)
 * [Control flow and Loops](control_flow_and_loops.md)
+   * The for loop
 
