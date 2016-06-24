@@ -37,7 +37,7 @@ for ( ; ; ) {
 }
 ```
 
-## Enhanced for loop
+## Enhanced for loop ( for each loop )
 The for statement also has another form designed for iteration through Collections and arrays This form is sometimes referred to as the enhanced for statement, and can be used to make your loops more compact and easy to read. To demonstrate, consider the following program which prints numbers from an array, which holds the numbers 1 through 10:
 
 ```
