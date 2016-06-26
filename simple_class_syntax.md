@@ -42,10 +42,15 @@ public class Company{
     this.name = name;
     }
   public void addEmployee(Employee e){
-    if (Employee.getNumberOfEmployees() < employees.length){
+    if (Employee.getNumberOfEmployees() < employees.length)
       employees[Employee.getNumberOfEmployees() - 1] = e;
     else
       System.out.println("Max employees reached");
+  }
+  
+  public Employee[] getEmployees(){
+    return employees;
+    }
   }
 ```
 Here are some points about Company class:
