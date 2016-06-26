@@ -69,7 +69,7 @@ public class EmployeeSort{
   
 From this example we have to understand few things about Interfaces,
 * Any class which implements an interface must define the functions of the interface.
-* Once a class implements an interface, we can store and access the class instances as of the type of the interface. eg. List<Integer> i = new LinkedList<>();
+* Once a class implements an interface, we can store and access the class instances as of the type of the interface. eg. ```List<Integer> i = new LinkedList<>();```
   
     
   
