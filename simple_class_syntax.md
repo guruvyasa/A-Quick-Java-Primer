@@ -12,8 +12,12 @@ public class Employee{
     this.age = age;
     this.salary = salary;
     }
-  public static int getNumberOfEmployees(){
+  public static int getNumberOfEmployees(){ //this is a class method
     return numberOfEmployees;
+  }
+  public String getName(){
+    return name;
+    }
   }
   ```
  This is the blueprint of every employee. There are some things to observe here,
