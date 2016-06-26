@@ -27,3 +27,17 @@ The following table shows the access to members permitted by each modifier.
 | no-modifier | Y | Y | N | N |
 | private | Y | N | N | N |
 
+Let's look at a collection of classes and see how access levels affect visibility. The following figure shows the four classes in this example and how they are related.
+
+![](classes-access.gif)
+
+The following table shows where the members of the Alpha class are visible for each of the access modifiers that can be applied to them.
+
+| Modifier | Alpha | Beta | AlphaSub |Gamma |
+| -- | -- | -- | -- | -- |
+| public | Y | Y | Y | Y |
+| protected | Y | Y | Y | N |
+| no-modifier | Y | Y | N | N |
+| private | Y | N | N | N |
+
+
