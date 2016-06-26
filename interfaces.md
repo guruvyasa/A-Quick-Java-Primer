@@ -33,3 +33,8 @@ public interface GroupedInterface extends Interface1, Interface2, Interface3 {
 * Default methods are defined with the default modifier, and static methods with the static keyword. 
 * All abstract, default, and static methods in an interface are implicitly public, so you can omit the public modifier.
 * An interface can contain constant declarations. All constant values defined in an interface are implicitly public, static, and final. Once again, you can omit these modifiers.
+
+## Implementing an interface
+* To declare a class that implements an interface, you include an implements clause in the class declaration. 
+* Your class can implement more than one interface, so the implements keyword is followed by a comma-separated list of the interfaces implemented by the class. Eg. ```class MyButton implements Clickable,Moveable{...}```
+* By convention, the implements clause follows the extends clause, if there is one. ```class MyButton extends View implements Clickable,Moveable{...}```
