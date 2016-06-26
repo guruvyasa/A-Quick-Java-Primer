@@ -37,6 +37,10 @@ Now we have another class called Company, which has employees
 ```
 public class Company{
   private Employee[] employees = new Employee[100]; //creates an array of 100 employees
+  private String name;
+  Company(String name){
+    this.name = name;
+    }
   public void addEmployee(Employee e){
     if (Employee.getNumberOfEmployees() < employees.length){
       employees[Employee.getNumberOfEmployees() - 1] = e;
