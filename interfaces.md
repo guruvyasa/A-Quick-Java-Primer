@@ -37,4 +37,4 @@ public interface GroupedInterface extends Interface1, Interface2, Interface3 {
 ## Implementing an interface
 * To declare a class that implements an interface, you include an implements clause in the class declaration. 
 * Your class can implement more than one interface, so the implements keyword is followed by a comma-separated list of the interfaces implemented by the class. Eg. ```class MyButton implements Clickable,Moveable{...}```
-* By convention, the implements clause follows the extends clause, if there is one. ```class MyButton extends View implements Clickable,Moveable{...}```
+* By convention, the implements clause follows the extends clause, if there is one. Eg. ```class MyButton extends View implements Clickable,Moveable{...}```
