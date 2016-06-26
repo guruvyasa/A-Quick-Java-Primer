@@ -31,7 +31,7 @@ Now we have another class called Company, which has employees
 public class Company{
   private Employee[] employees = new Employee[100]; //creates an array of 100 employees
   public void addEmployee(Employee e){
-    if (Employee.numberOfEmployees < employees.length){
+    if (Employee.getNumberOfEmployees() < employees.length){
       employees[Employee.getNumberOfEmployees() - 1] = e;
     else
       System.out.println("Max employees reached");
