@@ -1,4 +1,4 @@
-# Member Variables
+# Member(instance) Variables
 
 There are several kinds of variables:
 
