@@ -38,3 +38,11 @@ public interface GroupedInterface extends Interface1, Interface2, Interface3 {
 * To declare a class that implements an interface, you include an implements clause in the class declaration. 
 * Your class can implement more than one interface, so the implements keyword is followed by a comma-separated list of the interfaces implemented by the class. Eg. ```class MyButton implements Clickable,Moveable{...}```
 * By convention, the implements clause follows the extends clause, if there is one. Eg. ```class MyButton extends View implements Clickable,Moveable{...}```
+
+Let us continue the example of Employees. Suppost we want to sort the employees based on their salary. We can do this in multiple ways, one is to use the Comparator interface,
+```
+import java.util.*;
+public class EmployeeSort{
+  public static void main(String[] args){
+    Company sathvikSoftech = new Company("sathvik softech");
+  
