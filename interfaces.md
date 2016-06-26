@@ -57,7 +57,7 @@ public class EmployeeSort{
                               return Integer.compare(i1.getSalary(),i2.getSalary());
                               };
     Employee[] employees = sathvikSoftech.getEmployees();
-    Arrays.sort(e,c);
+    Arrays.sort(employees,c);
     
     for(Employee e:employees){
       System.out.println(e.getName());
