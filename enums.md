@@ -6,15 +6,16 @@ Because they are constants, the names of an enum type's fields are in uppercase 
 In the Java programming language, you define an enum type by using the enum keyword. For example, you would specify a days-of-the-week enum type as:
 
 
-public enum Day {
+```public enum Day {
     SUNDAY, MONDAY, TUESDAY, WEDNESDAY,
     THURSDAY, FRIDAY, SATURDAY 
-}
+}```
+
 You should use enum types any time you need to represent a fixed set of constants. That includes natural enum types such as the planets in our solar system and data sets where you know all possible values at compile time—for example, the choices on a menu, command line flags, and so on.
 
 Here is some code that shows you how to use the Day enum defined above:
 
-
+```
 public class EnumTest {
     Day day;
     
@@ -62,6 +63,8 @@ Midweek days are so-so.
 Fridays are better.
 Weekends are best.
 Weekends are best.
+
+```
 Java programming language enum types are much more powerful than their counterparts in other languages. The enum declaration defines a class (called an enum type). The enum class body can include methods and other fields. The compiler automatically adds some special methods when it creates an enum. For example, they have a static values method that returns an array containing all of the values of the enum in the order they are declared. This method is commonly used in combination with the for-each construct to iterate over the values of an enum type. For example, this code from the Planet class example below iterates over all the planets in the solar system.
 
 ```for (Planet p : Planet.values()) {
