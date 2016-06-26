@@ -34,4 +34,22 @@ public class Company{
     else
       System.out.println("Max employees reached");
   }
+```
+Here are some points about Company class:
+* The company can have a max of 100 employees
+* We check if the employees list is full everytime we add an employee to the list.
+
+** Can you identify a flaw with this program?? If yes rectify it!!
+**
+From the two classes, we can identify the common syntax for a class,
+```
+modifier class ClassName{
+ modifier datatype attrib1;
+ ...
+ ...
+ modifier returnType methodName(Type arg1,...){...}
+ ...
+ }
+```
+
  
