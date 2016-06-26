@@ -16,4 +16,23 @@ If we look at the Employee class we discussed in the previous chapter, we can se
 public class Person{
   private String name;
   private int age;
-  Person(
+  Person(String name,int age){
+    this.name = name;
+    this.age = age;
+    }
+   public int getAge(){
+     return age;
+     }
+   public String getName(){
+     return name;
+     }
+   }
+  ```
+Now we can define our Employee class as follows:
+```
+public class Employee extends Person{
+  private int salary;
+  Employee(String name,int age,int salary){
+    super(name,age); //calling superclass construction
+    this.salary = salary;
+    }
