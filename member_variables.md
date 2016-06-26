@@ -40,6 +40,8 @@ The following table shows where the members of the Alpha class are visible for e
 | no-modifier | Y | Y | N | N |
 | private | Y | N | N | N |
 
+In our Employee class, we cannot access salary,age and name of employees from anywhere outside the class.
+
 **Tips on Choosing an Access Level: **
 If other programmers use your class, you want to ensure that errors from misuse cannot happen. Access levels can help you do this.
 
