@@ -2,7 +2,7 @@
 For the problem listed, here is a simple class definition in Java which uses 2 classes, here is the Employee class
 ```
 public class Employee{
-  static int numberOfEmployees;
+  private static int numberOfEmployees;
   private int salary;
   private String name;
   private int age;
