@@ -56,10 +56,12 @@ public class EmployeeSort{
                             public int compare(Employee i1,Employee i2){
                               return Integer.compare(i1.getSalary(),i2.getSalary());
                               };
-    Employee[] e = sathvikSoftech.getEmployees();
+    Employee[] employees = sathvikSoftech.getEmployees();
     Arrays.sort(e,c);
     
-    System.out.println(e);
+    for(Employee e:employees){
+      System.out.println(e.getName());
+      }
     }
    }
   ```
