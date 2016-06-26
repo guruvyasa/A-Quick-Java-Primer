@@ -5,7 +5,11 @@ In our Employee class, we had a variable which was "static",numberOfEmployees. B
 
 ## Class Methods 
 In our Employee class we had a method called "getNumberOfEmployees". This method was static, thus it is a class method not instance method. To call this method we do not need an instance of Employee. On the other hand, getName() is an instance method. To call this method, 
-* create instance of Employee, ``` Employee e = new Employee('chandan',30,3000)
+
+* create instance of Employee, ``` Employee e = Employee('chandan',30,3000);```
+* access instance method through instance, ```e.getName();```
+
+
 Not all combinations of instance and class variables and methods are allowed:
 
 * Instance methods can access instance variables and instance methods directly.
