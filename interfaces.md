@@ -45,5 +45,12 @@ import java.util.*;
 public class EmployeeSort{
   public static void main(String[] args){
     Company sathvikSoftech = new Company("sathvik softech");
+    //add five employees
+    sathvikSoftech.addEmployee(new Employee("chandan",30,5000));
+    sathvikSoftech.addEmployee(new Employee("vijay",25,2000));
+    sathvikSoftech.addEmployee(new Employee("guru",23,3000));
+    sathvikSoftech.addEmployee(new Employee("vaibhav",25,4000));
+    sathvikSoftech.addEmployee(new Employee(arun",25,2000));
+  
     
   
