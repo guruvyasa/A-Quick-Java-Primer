@@ -40,4 +40,10 @@ The following table shows where the members of the Alpha class are visible for e
 | no-modifier | Y | Y | N | N |
 | private | Y | N | N | N |
 
+**Tips on Choosing an Access Level: **
+If other programmers use your class, you want to ensure that errors from misuse cannot happen. Access levels can help you do this.
+
+* Use the most restrictive access level that makes sense for a particular member. **Use private unless you have a good reason not to**.
+* Avoid public fields except for constants. Public fields tend to link you to a particular implementation and limit your flexibility in changing your code.
+
 
