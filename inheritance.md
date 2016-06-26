@@ -33,6 +33,17 @@ Now we can define our Employee class as follows:
 public class Employee extends Person{
   private int salary;
   Employee(String name,int age,int salary){
-    super(name,age); //calling superclass construction
+    super(name,age); //calling superclass constructor
     this.salary = salary;
     }
+  public int getSalary(){
+    return salary;
+    }
+ }
+ ```
+ If we create an Employee object now, and call getName() 
+ ```
+ Employee e = new Employee("chandan",30,3999);
+ System.out.println(e.getName()); //calls Person:: getName()
+ ```
+ Since Employee is a Person, Employee objects have access to all variables and methods defined in Person.
