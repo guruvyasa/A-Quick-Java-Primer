@@ -18,6 +18,9 @@ public class Employee{
   public String getName(){
     return name;
     }
+  public int getSalary(){
+    return salary;
+    }
   }
   ```
  This is the blueprint of every employee. There are some things to observe here,
