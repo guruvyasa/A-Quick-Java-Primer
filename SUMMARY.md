@@ -16,5 +16,5 @@
    * [Nested Classes](nested_classes.md)
 * [Enums](enums.md)
 * [Interfaces](interfaces.md)
-* Inheritance
+* [Inheritance](inheritance.md)
 
