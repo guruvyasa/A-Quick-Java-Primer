@@ -13,5 +13,5 @@
    * [Simple Class Syntax](simple_class_syntax.md)
        * [Member Variables](member_variables.md)
        * [Class members (static)](class_members_static.md)
-   * Nested Classes
+   * [Nested Classes](nested_classes.md)
 
