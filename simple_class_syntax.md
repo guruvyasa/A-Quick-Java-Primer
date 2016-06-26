@@ -60,5 +60,9 @@ modifier class ClassName{
  ...
  }
 ```
+To create an instance of a class, 
+```
+Employee e = new Employee('chandan',30,3000);//calls the Employee constructor
+```
 
  
