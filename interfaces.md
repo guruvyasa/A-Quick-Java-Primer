@@ -52,14 +52,20 @@ public class EmployeeSort{
     sathvikSoftech.addEmployee(new Employee("vaibhav",25,4000));
     sathvikSoftech.addEmployee(new Employee(arun",25,2000));
     
-    Comparator<Integer> c = new Comparator<>(){
-                            public int compare(Integer i1,Integer i2){
-                              return Integer.compare(i1,i2);
+    Comparator<Employee> c = new Comparator<>(){
+                            public int compare(Employee i1,Employee i2){
+                              return Integer.compare(i1.getSalary(),i2.getSalary());
                               };
     Employee[] e = sathvikSoftech.getEmployees();
     Arrays.sort(e,c);
     
     System.out.println(e);
+    }
+   }
+  ```
+  
+  
+  
   
     
   
