@@ -12,5 +12,5 @@
 * [Classes and Objects](classes_and_objects.md)
    * [Simple Class Syntax](simple_class_syntax.md)
        * [Member Variables](member_variables.md)
-       * Class members (static)
+       * [Class members (static)](class_members_static.md)
 
