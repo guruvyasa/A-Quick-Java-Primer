@@ -7,6 +7,7 @@ public class Employee{
   private String name;
   private int age;
   Employee(name,age,salary){ //this is constructor
+    numberOfEmployees += 1;
     this.name = name;
     this.age = age;
     this.salary = salary;
