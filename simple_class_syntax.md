@@ -12,6 +12,8 @@ public class Employee{
     this.age = age;
     this.salary = salary;
     }
+  public static int getNumberOfEmployees(){
+    return numberOfEmployees;
   }
   ```
  This is the blueprint of every employee. There are some things to observe here,
