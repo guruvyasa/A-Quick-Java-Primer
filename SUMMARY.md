@@ -14,5 +14,5 @@
        * [Member Variables](member_variables.md)
        * [Class members (static)](class_members_static.md)
    * [Nested Classes](nested_classes.md)
-* Enums
+* [Enums](enums.md)
 
