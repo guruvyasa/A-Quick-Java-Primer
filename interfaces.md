@@ -28,6 +28,8 @@ public interface GroupedInterface extends Interface1, Interface2, Interface3 {
 
 ##The Interface Body
 
-The interface body can contain abstract methods, default methods, and static methods. An abstract method within an interface is followed by a semicolon, but no braces (an abstract method does not contain an implementation). Default methods are defined with the default modifier, and static methods with the static keyword. All abstract, default, and static methods in an interface are implicitly public, so you can omit the public modifier.
-
-In addition, an interface can contain constant declarations. All constant values defined in an interface are implicitly public, static, and final. Once again, you can omit these modifiers.
+* The interface body can contain abstract methods, default methods, and static methods. 
+* An abstract method within an interface is followed by a semicolon, but no braces (an abstract method does not contain an implementation). 
+* Default methods are defined with the default modifier, and static methods with the static keyword. 
+* All abstract, default, and static methods in an interface are implicitly public, so you can omit the public modifier.
+* An interface can contain constant declarations. All constant values defined in an interface are implicitly public, static, and final. Once again, you can omit these modifiers.
