@@ -65,9 +65,11 @@ public class EmployeeSort{
     }
    }
   ```
+  The Comparator interface is a generic interface which we can use to make objects comparable. When the list of employees is sorted, we need to pass a Comparator object which is an Employee comparator. To create such an object we need to implement the compare function in the Comparator.
   
-  
-  
+From this example we have to understand few things about Interfaces,
+* Any class which implements an interface must define the functions of the interface.
+* Once a class implements an interface, we can store and access the class instances as of the type of the interface. eg. List<Integer> i = new LinkedList<>();
   
     
   
