@@ -21,6 +21,7 @@ public class Employee{
  * a constructor is a method which has the same name as theh class,Employee class has a method with name Employee.
  * this constructor gets called every time an employee object is created.
  * we had to use "this" in the constructor to disambiguate the variable names and instance names.
+ * numberOfEmployees is a static attribute of Employee, which get incremented every time an object is created
  
 Now we have another class called Company, which has employees
 
@@ -28,6 +29,9 @@ Now we have another class called Company, which has employees
 public class Company{
   private Employee[] employees = new Employee[100]; //creates an array of 100 employees
   public void addEmployee(Employee e){
-    employees.
-  
+    if (Employee.numberOfEmployees < employees.length){
+      employees[Employee.numberOfEmployees - 1] = e;
+    else
+      System.out.println("Max employees reached");
+  }
  
