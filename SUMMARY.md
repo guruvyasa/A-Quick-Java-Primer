@@ -10,4 +10,5 @@
    * [The for loop](the_for_loop.md)
    * [while and do-while loops](while_and_do-while_loops.md)
 * [Classes and Objects](classes_and_objects.md)
+   * Simple Class Syntax
 
