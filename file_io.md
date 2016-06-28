@@ -39,7 +39,7 @@ import java.io.IOException;
  
 public class BufferedWriterDemo {
   public static void main(String[] args) throws IOException {
-        File f = new File("sample.txt"); //create this file, put some content in it
+        File f = new File("sample.txt");
         System.out.println(f.exists());
         FileWriter fw = new FileWriter(f);
         BufferedWriter bw = new BufferedWriter(fw);
@@ -81,7 +81,7 @@ import java.io.IOException;
 public class BufferedReaderDemo {
  
     public static void main(String[] args) throws IOException {
-        FileReader fr = new FileReader("sample.txt");
+        FileReader fr = new FileReader("sample.txt"); //create this file, put some content in it
         BufferedReader br = new BufferedReader(fr);
         String s = br.readLine();
         while (s != null) {
