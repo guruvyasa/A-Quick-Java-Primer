@@ -69,7 +69,7 @@ BufferedReader class can read character data from the file.
 Important methods of BufferedReader Class
 
 * int read()
-* int read(char [] ch)
+* int read(char [ ] ch)
 * String readLine() - Reads the next line present in the file. If there is no nextline this method returns null.
 * void close()
  
@@ -81,7 +81,7 @@ import java.io.IOException;
 public class BufferedReaderDemo {
  
     public static void main(String[] args) throws IOException {
-        FileReader fr = new FileReader("java2learn.txt");
+        FileReader fr = new FileReader("sample.txt");
         BufferedReader br = new BufferedReader(fr);
         String s = br.readLine();
         while (s != null) {
