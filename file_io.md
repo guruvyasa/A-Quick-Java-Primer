@@ -26,9 +26,8 @@ Important methods of BufferedWriter Class:
 * void write(String s) throws IOException
 * void write(char[] ch) throws IOException
 * void newLine() for inserting a new line character.
-
 * void flush()
-*void close()
+* void close()
 
 
 
