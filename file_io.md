@@ -73,9 +73,22 @@ Important methods of BufferedReader Class
 * String readLine() - Reads the next line present in the file. If there is no nextline this method returns null.
 * void close()
  
-
-
-
-
-
-
+```
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+ 
+public class BufferedReaderDemo {
+ 
+    public static void main(String[] args) throws IOException {
+        FileReader fr = new FileReader("java2learn.txt");
+        BufferedReader br = new BufferedReader(fr);
+        String s = br.readLine();
+        while (s != null) {
+            System.out.println(s);
+            s = br.readLine();
+        }
+        br.close();
+    }
+}
+```
