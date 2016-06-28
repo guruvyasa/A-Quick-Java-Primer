@@ -56,6 +56,23 @@ public class BufferedWriterDemo {
     }
  ```
  
+###BufferedReader
+
+BufferedReader class can read character data from the file.
+
+**Constructors**
+
+* BufferedReader br = new BufferedReader(Reader r)
+* BufferedReader br = new BufferedReader(Reader r, int buffersize)
+* BufferedReader never communicates directly with the file. It should Communicate through some reader object only.
+
+Important methods of BufferedReader Class
+
+* int read()
+* int read(char [] ch)
+* String readLine() - Reads the next line present in the file. If there is no nextline this method returns null.
+* void close()
+ 
 
 
 
