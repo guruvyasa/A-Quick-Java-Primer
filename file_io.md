@@ -29,6 +29,8 @@ Important methods of BufferedWriter Class:
 * void flush()
 * void close()
 
+Here is a simple program to show usage of BufferedWriter
+
 ```
 import java.io.BufferedWriter;
 import java.io.File;
@@ -52,6 +54,8 @@ public class BufferedWriterDemo {
         bw.flush();
         bw.close();
     }
+ ```
+ 
 
 
 
