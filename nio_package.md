@@ -1,5 +1,6 @@
 # NIO package
 
+##Path class
  The Path class is a programmatic representation of a path in the file system. A Path object contains the file name and directory list used to construct the path, and is used to examine, locate, and manipulate files.
 
 A Path instance reflects the underlying platform. In the Solaris OS, a Path uses the Solaris syntax (/home/guru/foo) and in Microsoft Windows, a Path uses the Windows syntax (C:\home\guru\foo). A Path is not system independent. You cannot compare a Path from a Solaris file system and expect it to match a Path from a Windows file system, even if the directory structure is identical and both instances locate the same relative file.
