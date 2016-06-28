@@ -29,6 +29,30 @@ Important methods of BufferedWriter Class:
 * void flush()
 * void close()
 
+```
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+ 
+public class BufferedWriterDemo {
+  public static void main(String[] args) throws IOException {
+        File f = new File("sample.txt"); //create this file, put some content in it
+        System.out.println(f.exists());
+        FileWriter fw = new FileWriter(f);
+        BufferedWriter bw = new BufferedWriter(fw);
+        bw.write(97);
+        bw.newLine();
+        char[] ch1 = { 'a', 'b', 'c', 'd' };
+        bw.write(ch1);
+        bw.newLine();
+        bw.write("Sathvik");
+        bw.newLine();
+        bw.write("Softech");
+        bw.flush();
+        bw.close();
+    }
+
 
 
 
