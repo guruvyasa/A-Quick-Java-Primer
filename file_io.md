@@ -12,6 +12,25 @@ No matter how they work internally, all streams present the same simple model to
 ##Buffered Streams
 The preferred way to perform I/O operations is through the BufferedStream. Buffered input streams read data from a memory area known as a buffer; the native input API is called only when the buffer is empty. Similarly, buffered output streams write data to a buffer, and the native output API is called only when the buffer is full.
 
+### BufferedWriter
+This can be used for writing character data to the file.
+**Constructors**
+
+* BufferedWriter bw = new BufferedWriter(writer w)
+* BufferedWriter bw = new BufferedWriter(writer r, int size)
+* BufferedWriter never communicates directly with the file. It should communicate through some writer object only.
+
+Important methods of BufferedWriter Class:
+
+* void write(int ch) thorows IOException
+* void write(String s) throws IOException
+* void write(char[] ch) throws IOException
+* void newLine() for inserting a new line character.
+
+* void flush()
+*void close()
+
+
 
 
 
