@@ -49,3 +49,5 @@ class Java8IO{
 }
 ```
 
+The Files and Paths classes are central to file IO using the new java nio2. In the above example we have used the Files.write() to write lines to the file and Files.lines to get a stream of lines from a file. We also use Files.newBufferedReader to get a BufferedReader instance.
+
