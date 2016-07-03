@@ -111,4 +111,5 @@ public class Shuffle {
 The Collections class has many methods which can be applied on a list. In the previous example, we used the shuffle() method.
 
 ###Map implementations
+The three general-purpose Map implementations(there are special purpose and concurrent implementations) are HashMap, TreeMap and LinkedHashMap. If you need SortedMap operations or key-ordered Collection-view iteration, use TreeMap; if you want maximum speed and don't care about iteration order, use HashMap; if you want near-HashMap performance and insertion-order iteration, use LinkedHashMap. In this respect, the situation for Map is analogous to Set. Likewise, everything else in the Set Implementations section also applies to Map implementations.
 
