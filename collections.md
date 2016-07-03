@@ -138,5 +138,6 @@ public class Freq {
 LinkedList implements both Queue and Deque interfaces. So we can use a LinkedList as if it is a Queue or Deque.
 ```
 Queue<String> q= new LinkedList<>();
+Deque<String> dq = new LinkedList<>();
 ```
 
