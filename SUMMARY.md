@@ -22,5 +22,5 @@
 * [Collections](collections.md)
 * [Exceptions](exceptions.md)
 * [Generics](generics.md)
-* Threads
+* [Threads](threads.md)
 
