@@ -102,7 +102,7 @@ import java.util.*;
 
 public class Shuffle {
     public static void main(String[] args) {
-        List<String> list = Arrays.asList(args);
+        List<String> list = Arrays.asList(args);//args contains command line arguments
         Collections.shuffle(list);
         System.out.println(list);
     }
