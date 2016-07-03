@@ -43,6 +43,7 @@ The last two core collection interfaces are merely sorted versions of Set and Ma
 ##General purpose implementations:
 ###Set implementations:
 There are three general-purpose Set implementations :
+
 * **HashSet:** Faster than TreeSet, no ordering guarantees
 * **TreeSet:** Implements SortedSet interface, value ordering possible.
 * **LinkedHashSet:**Implemented as a hash table with a linked list running through it, it provides insertion-ordered iteration (least recently inserted to most recently) and runs nearly as fast as HashSet.
