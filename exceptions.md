@@ -30,8 +30,18 @@ if a block of code may throw an exception which is subjected to this requirement
 
 **Types of exceptions**
 
-* Checked Exception
-        This category of exception is subject to the “catch or specify” requirement. eg.
+* **Checked Exception:**
+This category of exception is subject to the “catch or specify” requirement. eg.
 All exceptions related to file io are checked exceptions. Thus any code which does file io should be written in any of these two ways:
+
+ 1) Enclosing in try-catch:
+```
+try{
+//code which throws checked exception
+}
+catch(Name of exception){
+//handling code
+}
+```
 
 
