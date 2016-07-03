@@ -68,6 +68,25 @@ try {
 //code
 }
 ```
+Java 7 has introduced another way if a single handler for multiple exceptions is needed:
+eg. 
+```
+try{
+//code
+}
+catch(IOException|SQLException e){
+  logger.log(e);
+  throw e;
+  }
+finally{
+//this code will always execute
+}
+  ```
+the example above also shows the catch block throwing the exception object with the “throw” keyword. 
+
+The code in finally will always execute irrespective of whether the exception occurs or not. This block is optional and follows the catch blocks. Eg.
+```
+
  
 
 
