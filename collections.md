@@ -108,4 +108,5 @@ public class Shuffle {
     }
 }
 ```
+The Collections class has many methods which can be applied on a list. In the previous example, we used the shuffle() method.
 
