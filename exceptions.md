@@ -43,5 +43,21 @@ catch(Name of exception){
 //handling code
 }
 ```
+ 2) Specifying with the “throws” keyword:
+ ```
+ public void writeList() throws IOException{
+ PrintWriter out = new PrintWriter(new FileWriter("out.txt"));
+ for(int i = 0;i<10;i++){
+  System.out.println("Value at: "+i+"="+list.get(i));
+  }
+ }
+ ```
+ 
+ * **Unchecked Exceptions: **
+ Exceptions that are internal to the application but application cannot recover from it / cant do much about it. Eg. NullPointerException.
+ 
+* **Errors: **These are exceptional conditions that are external to the application, and that the application usually cannot anticipate or recover from. Eg. IOError .
+* 
+ 
 
 
