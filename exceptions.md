@@ -28,4 +28,10 @@ the state of the program when the error occurred
 **“Catch or specify requirement”
 if a block of code may throw an exception which is subjected to this requirement then it must be either within the try-catch block or it must explicitly say that it may throw that exception**
 
+**Types of exceptions**
+
+* Checked Exception
+        This category of exception is subject to the “catch or specify” requirement. eg.
+All exceptions related to file io are checked exceptions. Thus any code which does file io should be written in any of these two ways:
+
 
