@@ -36,5 +36,6 @@ The Collection interface is used to pass around collections of objects where max
 * **Map: ** an object that maps keys to values. A Map cannot contain duplicate keys; each key can map to at most one value.
 
 The last two core collection interfaces are merely sorted versions of Set and Map:
+
 * **SortedSet: **  a Set that maintains its elements in ascending order. Several additional operations are provided to take advantage of the ordering. Sorted sets are used for naturally ordered sets, such as word lists and membership rolls. 
 * **SortedMap: **  a Map that maintains its mappings in ascending key order. This is the Map analog of SortedSet. Sorted maps are used for naturally ordered collections of key/value pairs, such as dictionaries and telephone directories. 
