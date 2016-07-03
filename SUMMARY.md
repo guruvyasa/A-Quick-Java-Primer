@@ -20,5 +20,5 @@
 * [File I/O](file_io.md)
    * [NIO package](nio_package.md)
 * [Collections](collections.md)
-* Exceptions
+* [Exceptions](exceptions.md)
 
