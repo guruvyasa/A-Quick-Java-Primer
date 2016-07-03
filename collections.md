@@ -93,4 +93,5 @@ Standard way of creating LinkedList/ArrayList instance:
 ```
 List<String> words = new LinkedList<>();
 List<String> words = new ArrayList<>();
+```
 
