@@ -24,3 +24,8 @@ the state of the program when the error occurred
 * Separating Error-Handling Code from "Regular" Code
 * Propagating errors up the call stack
 * Grouping and differentiating error types
+
+**“Catch or specify requirement”
+if a block of code may throw an exception which is subjected to this requirement then it must be either within the try-catch block or it must explicitly say that it may throw that exception**
+
+
