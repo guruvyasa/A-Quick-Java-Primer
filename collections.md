@@ -83,3 +83,5 @@ public class FindDups {
 
 * Range-view — The ```sublist``` method performs arbitrary range operations on the list.
 
+There are two general-purpose List implementations : ```ArrayList``` and ```LinkedList```
+
