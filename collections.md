@@ -47,3 +47,9 @@ There are three general-purpose Set implementations :
 * **HashSet:** Faster than TreeSet, no ordering guarantees
 * **TreeSet:** Implements SortedSet interface, value ordering possible.
 * **LinkedHashSet:**Implemented as a hash table with a linked list running through it, it provides insertion-ordered iteration (least recently inserted to most recently) and runs nearly as fast as HashSet.
+
+The standard way to create a Set:
+```
+Set<String> s = new HashSet<>()
+```
+
