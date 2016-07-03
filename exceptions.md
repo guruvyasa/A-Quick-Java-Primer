@@ -84,8 +84,28 @@ finally{
   ```
 the example above also shows the catch block throwing the exception object with the “throw” keyword. 
 
-The code in finally will always execute irrespective of whether the exception occurs or not. This block is optional and follows the catch blocks. Eg.
+The code in finally will always execute irrespective of whether the exception occurs or not. This block is optional and follows the catch blocks.
+
+##Writing your own exceptions
+t is possible to create your own exceptions by subclassing the Exception class. It is a good practise to name the class with the word exception. Eg. GameOverException.
 ```
+class GameOverException extends Exception{
+private String msg;
+public GameOverException(String msg){
+this.msg = msg;
+}
+public String toString(){
+  System.out.println(msg);
+  }
+ }
+ ```
+ To throw this new exception,
+ ```
+ throw new GameOverException("Game Over");
+ ```
+ 
+
+
 
  
 
