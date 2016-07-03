@@ -85,3 +85,7 @@ public class FindDups {
 
 There are two general-purpose List implementations : ```ArrayList``` and ```LinkedList```
 
+**ArrayList: **offers constant-time positional access and is just plain fast. 
+
+**LinkedList: **If you frequently add elements to the beginning of the List or iterate over the List to delete elements from its interior, you should consider using LinkedList. These operations require constant-time in a LinkedList and linear-time in an ArrayList. Also implements the ```Queue``` interface.
+
