@@ -72,4 +72,14 @@ public class FindDups {
     }
 }
 ```
+### List implementations
+ In addition to the operations inherited from Collection, the List interface includes operations for the following:
+
+* Positional access — manipulates elements based on their numerical position in the list. This includes methods such as``` get, set, add, addAll, remove```.
+
+* Search — searches for a specified object in the list and returns its numerical position. Search methods include ```indexOf``` and ```lastIndexOf.```
+
+* Iteration — extends Iterator semantics to take advantage of the list's sequential nature. The ```listIterator``` methods provide this behavior.
+
+* Range-view — The ```sublist``` method performs arbitrary range operations on the list.
 
