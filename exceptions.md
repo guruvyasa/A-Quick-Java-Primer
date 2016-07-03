@@ -57,7 +57,16 @@ catch(Name of exception){
  Exceptions that are internal to the application but application cannot recover from it / cant do much about it. Eg. NullPointerException.
  
 * **Errors: **These are exceptional conditions that are external to the application, and that the application usually cannot anticipate or recover from. Eg. IOError .
-* 
+
+##Multiple catch statements and finally block:
+If a block of code can generate many exceptions we can have multiple catch block to handle each kind of exception. 
+```
+try {
+} catch (ExceptionType name) {
+//code
+} catch (ExceptionType name) {
+//code
+}
  
 
 
