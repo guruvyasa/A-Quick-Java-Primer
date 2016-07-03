@@ -19,5 +19,5 @@
 * [Inheritance](inheritance.md)
 * [File I/O](file_io.md)
    * [NIO package](nio_package.md)
-* Collections
+* [Collections](collections.md)
 
