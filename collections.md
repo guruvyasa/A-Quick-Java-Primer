@@ -52,4 +52,24 @@ The standard way to create a Set:
 ```
 Set<String> s = new HashSet<>()
 ```
+Set interface basic operations:
+* The ```size``` operation returns the number of elements in the Set (its cardinality). 
+* The ```isEmpty``` method does exactly what you think it would. 
+* The``` add``` method adds the specified element to the Set if it is not already present and returns a boolean indicating whether the element was added.
+* the``` remove``` method removes the specified element from the Set if it is present and returns a boolean indicating whether the element was present. 
+* The ```iterator``` method returns an Iterator over the Set.
+
+A simple example to print duplicate words:
+```
+import java.util.*;
+
+public class FindDups {
+    public static void main(String[] args) {
+        Set<String> s = new HashSet<String>();
+        for (String a : args)
+               s.add(a);
+               System.out.println(s.size() + " distinct words: " + s);
+    }
+}
+```
 
