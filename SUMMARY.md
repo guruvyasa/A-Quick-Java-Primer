@@ -21,4 +21,5 @@
    * [NIO package](nio_package.md)
 * [Collections](collections.md)
 * [Exceptions](exceptions.md)
+* Generics
 
