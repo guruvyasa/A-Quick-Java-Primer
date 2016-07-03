@@ -18,3 +18,9 @@ the state of the program when the error occurred
 
 ![](except1.jpg)
 5) The exception handler chosen is said to catch the exception. If the runtime system exhaustively searches all the methods on the call stack without finding an appropriate exception handler, as shown in the above figure, the runtime system (and, consequently, the program) terminates.
+
+**Advantages of using exceptions:**
+
+* Separating Error-Handling Code from "Regular" Code
+* Propagating errors up the call stack
+* Grouping and differentiating error types
