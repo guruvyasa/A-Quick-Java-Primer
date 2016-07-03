@@ -96,4 +96,16 @@ Standard way of creating LinkedList/ArrayList instance:
 List<String> words = new LinkedList<>();
 List<String> words = new ArrayList<>();
 ```
+Here is a program to read words from the command line and shuffle them,
+```
+import java.util.*;
+
+public class Shuffle {
+    public static void main(String[] args) {
+        List<String> list = Arrays.asList(args);
+        Collections.shuffle(list);
+        System.out.println(list);
+    }
+}
+```
 
