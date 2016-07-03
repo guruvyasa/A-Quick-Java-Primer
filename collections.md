@@ -27,7 +27,7 @@ The core collection interfaces encapsulate different types of collections, which
 
 The Collection interface is used to pass around collections of objects where maximum generality is desired.A collection can be converted to an array using the toArray() method. 
 
-**Collections can hold only reference types. So ```List<int>``` etc. is not allowed**
+**Collections can hold only reference types. So ```List<int>``` etc. is not allowed, use ```List<Integer>``` instead**
 ## The core collection interfaces:
 
 * **Collection**: the root of the collection hierarchy. A collection represents a group of objects known as its elements. The Collection interface is the least common denominator that all collections implement and is used to pass collections around and to manipulate them when maximum generality is desired.
