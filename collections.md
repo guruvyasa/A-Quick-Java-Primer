@@ -39,3 +39,10 @@ The last two core collection interfaces are merely sorted versions of Set and Ma
 
 * **SortedSet: **  a Set that maintains its elements in ascending order. Several additional operations are provided to take advantage of the ordering. Sorted sets are used for naturally ordered sets, such as word lists and membership rolls. 
 * **SortedMap: **  a Map that maintains its mappings in ascending key order. This is the Map analog of SortedSet. Sorted maps are used for naturally ordered collections of key/value pairs, such as dictionaries and telephone directories. 
+
+##General purpose implementations:
+###Set implementations:
+There are three general-purpose Set implementations :
+* **HashSet:** Faster than TreeSet, no ordering guarantees
+* **TreeSet:** Implements SortedSet interface, value ordering possible.
+* **LinkedHashSet:**Implemented as a hash table with a linked list running through it, it provides insertion-ordered iteration (least recently inserted to most recently) and runs nearly as fast as HashSet.
