@@ -140,4 +140,5 @@ LinkedList implements both Queue and Deque interfaces. So we can use a LinkedLis
 Queue<String> q= new LinkedList<>();
 Deque<String> dq = new LinkedList<>();
 ```
+Queue provides the FIFO behaviour through add(),remove() methods. Deque provides addFirst(),addLast(),removeFirst(),removeLast() methods too.
 
