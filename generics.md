@@ -16,3 +16,5 @@ You can write a single generic method declaration that can be called with argume
 * The type parameters can be used to declare the return type and act as placeholders for the types of the arguments passed to the generic method, which are known as actual type arguments.
 
 * A generic method's body is declared like that of any other method. Note that type parameters can represent only reference types, not primitive types (like int, double and char).
+
+Following example illustrates how we can print array of different type using a single Generic method:
