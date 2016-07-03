@@ -113,3 +113,25 @@ The Collections class has many methods which can be applied on a list. In the pr
 ###Map implementations
 The three general-purpose Map implementations(there are special purpose and concurrent implementations) are HashMap, TreeMap and LinkedHashMap. If you need SortedMap operations or key-ordered Collection-view iteration, use TreeMap; if you want maximum speed and don't care about iteration order, use HashMap; if you want near-HashMap performance and insertion-order iteration, use LinkedHashMap. In this respect, the situation for Map is analogous to Set. Likewise, everything else in the Set Implementations section also applies to Map implementations.
 
+The Map interface includes methods for basic operations (such as put, get, remove, containsKey, containsValue, size, and empty), bulk operations (such as putAll and clear), and collection views (such as keySet, entrySet, and values).
+
+Here is a simple example which shows how to implement a word frequency counter:
+```
+import java.util.*;
+
+public class Freq {
+    public static void main(String[] args) {
+        Map<String, Integer> m = new HashMap<String, Integer>();
+
+        // Initialize frequency table from command line
+        for (String a : args) {
+            Integer freq = m.get(a);
+            m.put(a, (freq == null) ? 1 : freq + 1);
+        }
+
+        System.out.println(m.size() + " distinct words:");
+        System.out.println(m);
+    }
+}
+```
+
