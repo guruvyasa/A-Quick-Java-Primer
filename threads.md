@@ -122,6 +122,32 @@ Suppose Thread A invokes increment at about the same time Thread B invokes decre
 
 This particular interleaving is only one possibility. Under different circumstances it might be Thread B's result that gets lost, or there could be no error at all. Because they are unpredictable, thread interference bugs can be difficult to detect and fix.
 
+##Synchronized methods
+
+The Java programming language provides two basic synchronization idioms: synchronized methods and synchronized statements. The more complex of the two, synchronized statements, are described in the next section. This section is about synchronized methods.
+
+To make a method synchronized, simply add the synchronized keyword to its declaration:
+```
+public class SynchronizedCounter {
+    private int c = 0;
+
+    public synchronized void increment() {
+        c++;
+    }
+
+    public synchronized void decrement() {
+        c--;
+    }
+
+    public synchronized int value() {
+        return c;
+    }
+}
+```
+If count is an instance of SynchronizedCounter, then making these methods synchronized has two effects:
+
+
+
 
 
 
