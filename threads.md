@@ -67,4 +67,10 @@ causes the current thread to pause execution until t's thread terminates. Overlo
 
 Like sleep, join responds to an interrupt by exiting with an InterruptedException.
 
+##Synchronization
+
+Threads communicate primarily by sharing access to fields and the objects reference fields refer to. This form of communication is extremely efficient, but makes two kinds of errors possible: thread interference and memory consistency errors. The tool needed to prevent these errors is synchronization.
+
+However, synchronization can introduce thread contention, which occurs when two or more threads try to access the same resource simultaneously and cause the Java runtime to execute one or more threads more slowly, or even suspend their execution. Starvation and livelock are forms of thread contention
+
 
