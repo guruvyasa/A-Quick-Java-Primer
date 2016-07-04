@@ -44,10 +44,10 @@ public class SleepMessages {
     public static void main(String args[])
         throws InterruptedException {
         String importantInfo[] = {
-            "Mares eat oats",
-            "Does eat oats",
-            "Little lambs eat ivy",
-            "A kid will eat ivy too"
+            "Sathvik Softech, Hubli",
+            "Chandan Purohit",
+            "Hubli",
+            "CS rocks"
         };
 
         for (int i = 0;
